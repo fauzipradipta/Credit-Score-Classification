@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
-data = pd.read_csv('/Users/fauzipradipta/Documents/Machine Learning Practice/Credit Score Practice/Credit_Score_Data/train.csv')
+data = pd.read_csv('train.csv')
 # print(data.head())
 
 #to see data set in column
@@ -13,5 +13,8 @@ data = pd.read_csv('/Users/fauzipradipta/Documents/Machine Learning Practice/Cre
 
 # to see any data is null
 print(data.isnull().sum())
+
+
+
 
 
